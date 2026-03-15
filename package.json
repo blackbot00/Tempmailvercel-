@@ -1,6 +1,11 @@
 {
   "name": "temp-mail-cf-bot",
   "version": "1.0.0",
+  "description": "Temp Mail Bot for Cloudflare Pages",
+  "main": "functions/bot.js",
+  "scripts": {
+    "deploy": "wrangler pages deploy public"
+  },
   "dependencies": {
     "telegraf": "^4.12.0",
     "axios": "^1.3.4"
