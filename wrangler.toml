@@ -1,0 +1,5 @@
+name = "temp-mail-bot"
+compatibility_date = "2024-01-01"
+
+[vars]
+# இங்கே எதையும் போட வேண்டாம், Environment Variables-ல் Token கொடுத்துக்கொள்ளலாம்.
